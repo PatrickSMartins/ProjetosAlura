@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato Minha Barbearia</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+         <header>
+            <div class="caixa">
+                <h1><img src="imagens/logo.png" alt="Logo da Minha Barbearia"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSobrenome" class="inputPadrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="inputPadrao" required  placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="inputPadrao" required placeholder="(XX)XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="inputPadrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radioEmail"> <input type="radio"  name="contato" value="email" id="radioEmail"> Email</label>
+                   
+                    <label for="radioTelefone"> <input type="radio"  name="contato" value="telefone" id="radioTelefone"> Telefone</label>
+                   
+                    <label for="radioWhatsApp"><input type="radio" name="contato"  value="WhatsApp" id="radioWhatsApp" checked> WhatsApp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por Email?</label>
+
+                <input type="submit" value="Enviar formulário" class="Enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8 ~ 20</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8 ~ 20</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8 ~ 20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="imagens/logo-branco.png" alt="Logo da Minha Barbearia">
+            <p class="copyright">&copy;Copyright Minha Barbearia</p>
+       </footer>
+    </body>
+
+
+</html>        
