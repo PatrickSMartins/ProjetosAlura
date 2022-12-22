@@ -49,3 +49,8 @@ ul{
 .imagemBeneficios{
     width: 50%;
 }
+
+/*CSS da página inicial */
+.banner {
+    width: 100%;
+}
