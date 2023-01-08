@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "alura",
+  "description": "Repositório para todos os projetos feitos de maneira geral.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickSMartins/ProjetosAlura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickSMartins/ProjetosAlura/issues"
+  },
+  "homepage": "https://github.com/PatrickSMartins/ProjetosAlura#readme"
+}
