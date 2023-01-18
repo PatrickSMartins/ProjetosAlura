@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 let frutas = [];
 let laticinios = [];
 let doces = [];
